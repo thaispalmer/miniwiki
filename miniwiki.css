@@ -1,0 +1,72 @@
+#sidebar {
+	width: 200px;
+	border-right: 1px solid #aeaeae;
+	position: fixed;
+	top: 0px;
+	left: -215px;
+	bottom: 0px;
+	transition: left 0.5s;
+	-webkit-transition: left 0.5s;
+	-moz-transition: left 0.5s;
+	background-color: #f0f0f0;
+	padding: 10px;
+}
+#sidebar:hover {
+	left: 0px;
+	border-right: 1px solid #aeaeae;
+}
+#sidebar:after {
+	content: '+';
+	text-align: center;
+	color: #aeaeae;
+	background-color: #eee;
+	border: 1px solid #aeaeae;
+	border-radius: 100%;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin-left: -10px;
+}
+
+#conteudo {
+	margin: 10px 20px 30px 20px;
+}
+
+h2,h3,h4 {
+	margin: 0.5em 0px;
+}
+
+pre {
+	border: 1px solid #aeaeae;
+	background-color: #f0f0f0;
+	padding: 1em;
+	overflow-x: auto
+}
+
+a {
+	text-decoration: none;
+	color: #00d;
+}
+a:hover {
+	text-decoration: underline;
+	color: #d00;
+}
+
+.indexof  {
+	border: 1px solid #aeaeae;
+	padding: 1em;
+	background-color: #f0f0f0;
+	display: inline-block;
+}
+.indexof ul {
+	margin: 0px;
+	padding-left: 1.5em;
+}
+.indexof:before {
+	content: 'Índice';
+	display: block;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
